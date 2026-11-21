@@ -1,5 +1,7 @@
 # bim-room-schedule-exporter
 
+[![CI](https://github.com/yassine2med/bim-room-schedule-exporter/actions/workflows/ci.yml/badge.svg)](https://github.com/yassine2med/bim-room-schedule-exporter/actions/workflows/ci.yml) ![Python](https://img.shields.io/badge/python-3.10%2B-3776ab) ![License](https://img.shields.io/badge/license-MIT-8fb08a)
+
 A room schedule is the list every facility team needs from the BIM model: room number, name, level and area. This repo reads an IFC file and writes that schedule as a CSV, with warnings for rooms that have no level, number or area.
 
 ![Screenshot](docs/screenshot.png)
